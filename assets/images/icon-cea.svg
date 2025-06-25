@@ -1,0 +1,38 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="45" fill="#f8fdf8" stroke="#2d5a27" stroke-width="2"/>
+  
+  <!-- Greenhouse Structure -->
+  <path d="M20 75 L20 45 Q20 40 25 40 L75 40 Q80 40 80 45 L80 75 Z" fill="#e8f5e8" stroke="#4a7c59" stroke-width="2"/>
+  
+  <!-- Greenhouse Roof -->
+  <path d="M20 45 Q50 25 80 45" fill="none" stroke="#4a7c59" stroke-width="2"/>
+  <path d="M20 45 L50 30 L80 45" fill="#f8fdf8" stroke="#4a7c59" stroke-width="1.5"/>
+  
+  <!-- Plants -->
+  <ellipse cx="35" cy="65" rx="4" ry="8" fill="#66bb6a"/>
+  <ellipse cx="50" cy="65" rx="4" ry="8" fill="#66bb6a"/>
+  <ellipse cx="65" cy="65" rx="4" ry="8" fill="#66bb6a"/>
+  
+  <!-- Plant Stems -->
+  <line x1="35" y1="73" x2="35" y2="75" stroke="#4a7c59" stroke-width="2"/>
+  <line x1="50" y1="73" x2="50" y2="75" stroke="#4a7c59" stroke-width="2"/>
+  <line x1="65" y1="73" x2="65" y2="75" stroke="#4a7c59" stroke-width="2"/>
+  
+  <!-- Environmental Control Systems -->
+  <circle cx="25" cy="35" r="2" fill="#2d5a27"/>
+  <circle cx="75" cy="35" r="2" fill="#2d5a27"/>
+  
+  <!-- Climate Control Lines -->
+  <path d="M27 35 Q35 30 43 35" stroke="#81c784" stroke-width="1" fill="none" opacity="0.7"/>
+  <path d="M73 35 Q65 30 57 35" stroke="#81c784" stroke-width="1" fill="none" opacity="0.7"/>
+  
+  <!-- Irrigation System -->
+  <circle cx="50" cy="50" r="2" fill="#2196f3"/>
+  <line x1="48" y1="52" x2="35" y2="60" stroke="#2196f3" stroke-width="1" opacity="0.6"/>
+  <line x1="52" y1="52" x2="65" y2="60" stroke="#2196f3" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Light Systems -->
+  <rect x="30" y="42" width="4" height="2" fill="#ffc107" opacity="0.8"/>
+  <rect x="48" y="42" width="4" height="2" fill="#ffc107" opacity="0.8"/>
+  <rect x="66" y="42" width="4" height="2" fill="#ffc107" opacity="0.8"/>
+</svg> 

@@ -1,0 +1,24 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Mark -->
+  <circle cx="30" cy="30" r="25" fill="#2d5a27"/>
+  
+  <!-- Agricultural Elements -->
+  <!-- Leaf Shape -->
+  <path d="M15 30 Q20 20 30 25 Q40 20 45 30 Q40 40 30 35 Q20 40 15 30" fill="#66bb6a"/>
+  
+  <!-- Technology Circuit -->
+  <circle cx="22" cy="25" r="2" fill="#81c784"/>
+  <circle cx="38" cy="25" r="2" fill="#81c784"/>
+  <circle cx="30" cy="35" r="2" fill="#81c784"/>
+  <line x1="22" y1="25" x2="30" y2="35" stroke="#81c784" stroke-width="1"/>
+  <line x1="38" y1="25" x2="30" y2="35" stroke="#81c784" stroke-width="1"/>
+  
+  <!-- Company Name -->
+  <text x="70" y="40" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#2d5a27">Nirlepa</text>
+  
+  <!-- Tagline dot -->
+  <circle cx="180" cy="25" r="2" fill="#4a7c59"/>
+  
+  <!-- Subtle tech accent -->
+  <rect x="70" y="45" width="100" height="2" fill="#4a7c59" opacity="0.3"/>
+</svg> 
