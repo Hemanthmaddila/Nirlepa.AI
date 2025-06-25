@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120">
+  <!-- Leaf 1 (Left) -->
+  <g>
+    <path d="M50 90 Q30 70 40 40 Q60 20 90 35 Q100 50 85 70 Q70 85 50 90" 
+          fill="#7CB342" stroke="none"/>
+    <!-- Circuit pattern on leaf 1 -->
+    <g stroke="#4A7C59" stroke-width="1.5" fill="none">
+      <circle cx="45" cy="65" r="2" fill="#4A7C59"/>
+      <circle cx="55" cy="50" r="2" fill="#4A7C59"/>
+      <circle cx="70" cy="60" r="2" fill="#4A7C59"/>
+      <line x1="45" y1="65" x2="55" y2="50"/>
+      <line x1="55" y1="50" x2="70" y2="60"/>
+      <path d="M60 45 Q65 40 70 45"/>
+    </g>
+  </g>
+
+  <!-- Leaf 2 (Center-Top) -->
+  <g>
+    <path d="M85 50 Q70 25 85 10 Q110 5 125 25 Q130 40 120 55 Q100 65 85 50" 
+          fill="#8BC34A" stroke="none"/>
+    <!-- Circuit pattern on leaf 2 -->
+    <g stroke="#2D5A27" stroke-width="1.5" fill="none">
+      <circle cx="95" cy="35" r="2" fill="#2D5A27"/>
+      <circle cx="110" cy="25" r="2" fill="#2D5A27"/>
+      <circle cx="115" cy="40" r="2" fill="#2D5A27"/>
+      <circle cx="105" cy="50" r="2" fill="#2D5A27"/>
+      <line x1="95" y1="35" x2="110" y2="25"/>
+      <line x1="110" y1="25" x2="115" y2="40"/>
+      <line x1="115" y1="40" x2="105" y2="50"/>
+      <path d="M100 30 Q105 25 110 30"/>
+    </g>
+  </g>
+
+  <!-- Leaf 3 (Right) -->
+  <g>
+    <path d="M130 85 Q110 65 120 35 Q140 15 170 30 Q180 45 165 65 Q150 80 130 85" 
+          fill="#689F38" stroke="none"/>
+    <!-- Circuit pattern on leaf 3 -->
+    <g stroke="#2D5A27" stroke-width="1.5" fill="none">
+      <circle cx="135" cy="60" r="2" fill="#2D5A27"/>
+      <circle cx="150" cy="45" r="2" fill="#2D5A27"/>
+      <circle cx="160" cy="55" r="2" fill="#2D5A27"/>
+      <circle cx="145" cy="70" r="2" fill="#2D5A27"/>
+      <line x1="135" y1="60" x2="150" y2="45"/>
+      <line x1="150" y1="45" x2="160" y2="55"/>
+      <line x1="160" y1="55" x2="145" y2="70"/>
+      <path d="M155 40 Q160 35 165 40"/>
+    </g>
+  </g>
+
+  <!-- Stem -->
+  <path d="M85 50 Q90 70 95 90" stroke="#4A7C59" stroke-width="3" fill="none"/>
+
+  <!-- AI Text -->
+  <g>
+    <text x="190" y="45" font-family="Inter, sans-serif" font-size="28" font-weight="bold" fill="#1976D2">AI</text>
+    <!-- Tech lines around AI -->
+    <g stroke="#42A5F5" stroke-width="2" fill="none">
+      <line x1="185" y1="55" x2="200" y2="55"/>
+      <line x1="205" y1="55" x2="220" y2="55"/>
+      <circle cx="225" cy="55" r="3" fill="#42A5F5"/>
+    </g>
+  </g>
+
+  <!-- Additional tech elements -->
+  <g stroke="#42A5F5" stroke-width="1.5" fill="none">
+    <circle cx="170" cy="70" r="2" fill="#42A5F5"/>
+    <circle cx="180" cy="75" r="2" fill="#42A5F5"/>
+    <line x1="170" y1="70" x2="180" y2="75"/>
+    <path d="M175 65 Q180 60 185 65"/>
+  </g>
+</svg> 

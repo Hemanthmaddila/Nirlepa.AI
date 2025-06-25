@@ -38,16 +38,15 @@ function initNavigation() {
         });
     });
 
-    // Navbar background on scroll
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            navbar.style.background = 'rgba(255, 255, 255, 0.98)';
-            navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
-        } else {
-            navbar.style.background = 'rgba(255, 255, 255, 0.95)';
-            navbar.style.boxShadow = 'none';
-        }
-    });
+    // Scroll position tracking for navbar styling
+    function updateScrollPosition() {
+        const scrollY = window.scrollY;
+        document.documentElement.dataset.scroll = scrollY;
+    }
+
+    // Initialize scroll tracking
+    window.addEventListener('scroll', debounce(updateScrollPosition, 10), { passive: true });
+    updateScrollPosition(); // Set initial position
 
     // Active navigation highlighting
     updateActiveNavLink();
@@ -258,7 +257,7 @@ async function submitContactForm(data, form) {
         
     } catch (error) {
         console.error('Error submitting form:', error);
-        showNotification('Sorry, there was an error sending your message. Please try again or contact us directly at partnerships@nirlepa.ai', 'error');
+        showNotification('Sorry, there was an error sending your message. Please try again or contact us directly at partnership@nir-lepa.com', 'error');
     } finally {
         // Reset button
         submitBtn.textContent = originalText;
