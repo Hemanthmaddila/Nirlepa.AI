@@ -205,7 +205,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions or need help with customization:
 
 - Email: hemanthmaddila@nir-lepa.com
-- Website: [www.nirlepa.ai](https://www.nirlepa.ai)
+- Website: [www.nir-lepa.com](https://www.nir-lepa.com)
 
 ## 🎯 Roadmap
 
